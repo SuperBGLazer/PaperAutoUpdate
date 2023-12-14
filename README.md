@@ -32,7 +32,21 @@ sudo apt-get update
 sudo apt-get install python3
 ```
 
-4. Run the update script:
+4. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+5. Create/edit the config.json file to match your server configuration:
+
+```json
+{
+    "minecraftVersion": "1.20.1"
+}
+```
+
+6. Run the update script:
 
 ```bash
 python update.py
